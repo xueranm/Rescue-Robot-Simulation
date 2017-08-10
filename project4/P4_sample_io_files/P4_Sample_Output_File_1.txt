@@ -1,0 +1,16 @@
+Starting Human-Robot Interaction Simulation
+Reading file: P4_Sample_Input_File_1.txt
+Time 0 FILE> status
+The contents of the world are as follows:
+Time 0 FILE> create world
+Unrecognized command: create world
+Time 0 FILE> create world xyz
+Unrecognized command: create world xyz
+Time 0 FILE> create world 10 20
+Unrecognized command: create world 10 20
+Time 0 FILE> create world 4
+Error: World size is out of range
+Time 0 FILE> create world 20
+Creating world of size 20
+Time 0 FILE> quit
+Are you sure you want to quit? (Y/N) Time 0 FILE> y

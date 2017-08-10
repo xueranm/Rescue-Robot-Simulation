@@ -1,0 +1,9 @@
+status
+create world
+create world xyz
+create world 10 20
+create world 5
+create world 20
+create world 5	
+quit
+y

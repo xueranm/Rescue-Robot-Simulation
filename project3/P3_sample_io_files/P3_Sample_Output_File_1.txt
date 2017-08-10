@@ -1,0 +1,162 @@
+Starting Human-Robot Interaction Simulation.
+Reading file: P3_Sample_Input_File_1.txt
+FILE> create world 31
+Error: World size is out of range.
+FILE> create world 15
+Creating world of size 15.
+FILE> create waypoint a 1 1
+Creating waypoint A at location (1, 1)
+FILE> create waypoint b 1 14
+Creating waypoint B at location (1, 14)
+FILE> create waypoint c 14 14
+Creating waypoint C at location (14, 14)
+FILE> create waypoint d 14 1
+Creating waypoint D at location (14, 1)
+FILE> create human Paloma 2 8
+Creating human Paloma at location (2, 8).
+FILE> create human Ming 12 14
+Creating human Ming at location (12, 14).
+FILE> create human Fred 12 14
+Creating human Fred at location (12, 14).
+FILE> create human Anita 12 25
+Error: Invalid location.
+FILE> create human Joe 2 17
+Error: Invalid location.
+FILE> create robot T2 5 5
+Creating robot T2 at location (5, 5).
+FILE> create robot X3 5 5
+Creating robot X3 at location (5, 5).
+FILE> create fire Fire 3 3
+Creating fire Fire at location (3, 3).
+FILE> status
+The contents of the world are as follows:
+The world is of size 15.
+Waypoint A at location (1, 1)
+Waypoint B at location (1, 14)
+Waypoint C at location (14, 14)
+Waypoint D at location (14, 1)
+Human Paloma at location (2, 8)
+Human Ming at location (12, 14)
+Human Fred at location (12, 14)
+Robot T2 at location (5, 5)
+Robot X3 at location (5, 5)
+Fire Fire at location (3, 3)
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   B   .   .   .   .   .   .   .   .   .   .   .*  .   C   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+05  .   .   .   .   .   .*  .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .F  .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   A   .   .   .   .   .   .   .   .   .   .   .   .   D   .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> T2 move C
+Robot T2 moved to location (14, 14).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   B   .   .   .   .   .   .   .   .   .   .   .*  .   CT  .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+05  .   .   .   .   .   .X  .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .F  .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   A   .   .   .   .   .   .   .   .   .   .   .   .   D   .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> X3 move D
+Robot X3 moved to location (14, 1).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   B   .   .   .   .   .   .   .   .   .   .   .*  .   CT  .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .F  .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   A   .   .   .   .   .   .   .   .   .   .   .   .   DX  .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> Ming move 8 6
+Human Ming moved to location (8, 6).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   B   .   .   .   .   .   .   .   .   .   .   .F  .   CT  .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .M  .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .F  .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   A   .   .   .   .   .   .   .   .   .   .   .   .   DX  .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> Fred move 8 6
+Human Fred moved to location (8, 6).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   B   .   .   .   .   .   .   .   .   .   .   .   .   CT  .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .*  .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .F  .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   A   .   .   .   .   .   .   .   .   .   .   .   .   DX  .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> status
+The contents of the world are as follows:
+The world is of size 15.
+Waypoint A at location (1, 1)
+Waypoint B at location (1, 14)
+Waypoint C at location (14, 14)
+Waypoint D at location (14, 1)
+Human Paloma at location (2, 8)
+Human Ming at location (8, 6)
+Human Fred at location (8, 6)
+Robot T2 at location (14, 14)
+Robot X3 at location (14, 1)
+Fire Fire at location (3, 3)
+FILE> Fire move 5 13
+Unrecognized command: Fire move 5 13
+FILE> B move 7 12
+Unrecognized command: B move 7 12
+FILE> A move 3 4
+Unrecognized command: A move 3 4
+FILE> quit
+Are you sure you want to quit? (Y/N) FILE> y

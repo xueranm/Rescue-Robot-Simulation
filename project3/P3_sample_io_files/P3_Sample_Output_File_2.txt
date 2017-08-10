@@ -1,0 +1,26 @@
+Starting Human-Robot Interaction Simulation.
+Reading file: P3_Sample_Input_File_2.txt
+FILE> create world 31
+Error: World size is out of range.
+FILE> create world 15
+Creating world of size 15.
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> quit
+Are you sure you want to quit? (Y/N) FILE> y

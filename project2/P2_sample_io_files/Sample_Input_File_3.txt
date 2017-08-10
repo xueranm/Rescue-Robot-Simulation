@@ -1,0 +1,9 @@
+create world 20
+create human a 5 5
+a move 10 10
+a move 35 35
+a move 20 20 20
+a drop
+status
+quit
+y

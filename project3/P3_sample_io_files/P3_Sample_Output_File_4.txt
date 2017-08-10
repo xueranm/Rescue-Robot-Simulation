@@ -1,0 +1,52 @@
+Starting Human-Robot Interaction Simulation.
+Reading file: P3_Sample_Input_File_4.txt
+FILE> create world 15
+Creating world of size 15.
+FILE> create human Paloma 2 8
+Creating human Paloma at location (2, 8).
+FILE> create human Ming 11 14
+Creating human Ming at location (11, 14).
+FILE> create human Fred 12 14
+Creating human Fred at location (12, 14).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .M  .F  .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> Ming move 8 6
+Human Ming moved to location (8, 6).
+FILE> Fred move 8 8
+Human Fred moved to location (8, 8).
+FILE> show
+15  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+10  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .P  .   .   .   .   .   .F  .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .M  .   .   .   .   .   .   .  
+05  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+00  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  
+    00                  05                  10                  15
+FILE> quit
+Are you sure you want to quit? (Y/N) FILE> y

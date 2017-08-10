@@ -1,0 +1,33 @@
+Starting Human-Robot Interaction Simulation
+Reading file: P4_Sample_Input_File_3.txt
+Time 0 FILE> create world 20
+Creating world of size 20
+Time 0 FILE> create human h 5 5
+Creating human H at location (5, 5)
+Time 0 FILE> h move 5,10
+Human H at location (5, 5) moving to (5, 10)
+Time 0 FILE> h move 35,35
+Error: '35,35' is not a valid location for this 'move'
+Time 0 FILE> h move 5,10 20
+Error: '20' is not a valid location for this 'move'
+Time 0 FILE> h drop
+Error: Invalid human command
+Time 0 FILE> create robot A 1 1
+Creating robot A at location (1, 1)
+Time 0 FILE> create waypoint A 1 1
+Creating waypoint A at location (1, 1)
+Time 0 FILE> create waypoint B 1 1
+Error: Waypoint A already exists at location (1, 1)
+Time 0 FILE> create waypoint A 2 2
+Error: Waypoint A already exists at location (1, 1)
+Time 0 FILE> create robot B 1 1
+Creating robot B at location (1, 1)
+Time 0 FILE> status
+The contents of the world are as follows:
+The world is of size 20
+Waypoint A at location (1, 1)
+Human H at location (5, 5) moving to (5, 10)
+Robot A at location (1, 1)
+Robot B at location (1, 1)
+Time 0 FILE> quit
+Are you sure you want to quit? (Y/N) Time 0 FILE> y

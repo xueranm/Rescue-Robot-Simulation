@@ -1,0 +1,21 @@
+Starting Human-Robot Interaction Simulation
+Reading file: P4_Sample_Input_File_2.txt
+Time 0 FILE> create human junling 10 10
+Error: A world must be created before any other objects
+Time 0 FILE> create world 20
+Creating world of size 20
+Time 0 FILE> create human junling 10 10
+Creating human Junling at location (10, 10)
+Time 0 FILE> create human junling 50 50
+Error: Human already exists with that name
+Time 0 FILE> create human xerxes 50 50
+Error: Invalid location
+Time 0 FILE> create human &pedro 5 15
+Error: Name must be alphanumeric
+Time 0 FILE> create fire Flames 5 15
+Creating fire Flames at location (5, 15)
+Time 0 FILE> Flames move 5,14
+Unrecognized command: Flames move 5,14
+Time 0 FILE> quit
+Are you sure you want to quit? (Y/N) Time 0 FILE> y
+Fire Flames has disappeared from the simulation

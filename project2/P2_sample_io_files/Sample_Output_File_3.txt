@@ -1,0 +1,16 @@
+Starting Human-Robot Interaction Simulation.
+Reading file: Sample_Input_File_3.txt
+FILE> create world 20
+Creating world of size 20.
+FILE> create human a 5 5
+Creating human A at location (5, 5).
+FILE> a move 10 10
+Human A moved to location (10, 10).
+FILE> a move 35 35
+Error: Invalid location.
+FILE> a move 20 20 20
+Error: Invalid move command.
+FILE> a drop
+Error: Invalid human command.
+FILE> quit
+Are you sure you want to quit? (Y/N) FILE> y

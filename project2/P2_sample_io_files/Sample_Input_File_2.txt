@@ -1,0 +1,9 @@
+create human junling 10 10
+create world 20
+create human junling 10 10
+create human junling 50 50  
+create human xerxes 50 50
+create human &pedro 5 15
+status
+quit
+y

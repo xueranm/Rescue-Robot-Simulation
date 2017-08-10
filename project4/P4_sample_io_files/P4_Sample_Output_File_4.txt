@@ -1,0 +1,142 @@
+Starting Human-Robot Interaction Simulation
+Reading file: P4_Sample_Input_File_4.txt
+Time 0 FILE> create world 5
+Creating world of size 5
+Time 0 FILE> create waypoint F 3 0
+Creating waypoint F at location (3, 0)
+Time 0 FILE> create waypoint B 1 1
+Creating waypoint B at location (1, 1)
+Time 0 FILE> create fire bigone 3 0
+Creating fire Bigone at location (3, 0)
+Time 0 FILE> create robot T2 0 0
+Creating robot T2 at location (0, 0)
+Time 0 FILE> create human ahmed 5 0
+Creating human Ahmed at location (5, 0)
+Time 0 FILE> T2 move F
+Robot T2 at location (0, 0) moving to (3, 0)
+Time 0 FILE> ahmed move f
+Human Ahmed at location (5, 0) moving to (3, 0)
+Time 0 FILE> t2 attack bigone
+Error: Robot T2 is not in the same location as fire Bigone
+Time 0 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (5, 0) moving to (3, 0)
+Robot T2 at location (0, 0) moving to (3, 0)
+Fire Bigone at location (3, 0) of strength 5
+Time 0 FILE> t2 move a
+Error: 'a' is not a valid location for this 'move'
+Time 0 FILE> ahmed move a
+Error: 'a' is not a valid location for this 'move'
+Time 0 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (5, 0) moving to (3, 0)
+Robot T2 at location (0, 0) moving to (3, 0)
+Fire Bigone at location (3, 0) of strength 5
+Time 0 FILE> show
+05  .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   B   .   .   .   .  
+00  .T  .   .   FB  .   .A 
+    00                  05
+Time 0 FILE> go
+Time 1 FILE> show
+05  .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   B   .   .   .   .  
+00  .   .T  .   FB  .A  .  
+    00                  05
+Time 1 FILE> go
+Human Ahmed arrived at location (3, 0)
+Human Ahmed stopping short of fire Bigone
+Time 2 FILE> show
+05  .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   B   .   .   .   .  
+00  .   .   .T  FB  .A  .  
+    00                  05
+Time 2 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (4, 0)
+Robot T2 at location (2, 0) moving to (3, 0)
+Fire Bigone at location (3, 0) of strength 5
+Time 2 FILE> go
+Robot T2 arrived at location (3, 0)
+Time 3 FILE> show
+05  .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   B   .   .   .   .  
+00  .   .   .   F*  .A  .  
+    00                  05
+Time 3 FILE> t2 attack bigone
+Robot T2 at location (3, 0) extinguishing fire Bigone
+Time 3 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (4, 0)
+Robot T2 at location (3, 0) extinguishing fire Bigone
+Fire Bigone at location (3, 0) of strength 5
+Time 3 FILE> go
+Time 4 FILE> go
+Time 5 FILE> go
+Time 6 FILE> t2 move 0,0
+Robot T2 at location (3, 0) moving to (0, 0)
+Time 6 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (4, 0)
+Robot T2 at location (3, 0) moving to (0, 0)
+Fire Bigone at location (3, 0) of strength 2
+Time 6 FILE> go
+Time 7 FILE> go
+Time 8 FILE> go
+Robot T2 arrived at location (0, 0)
+Time 9 FILE> status
+The contents of the world are as follows:
+The world is of size 5
+Waypoint F at location (3, 0)
+Waypoint B at location (1, 1)
+Human Ahmed at location (4, 0)
+Robot T2 at location (0, 0)
+Fire Bigone at location (3, 0) of strength 2
+Time 9 FILE> show
+05  .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   .   .   .   .   .  
+    .   B   .   .   .   .  
+00  .T  .   .   FB  .A  .  
+    00                  05
+Time 9 FILE> t2 move b f
+Error: 'b' is not a valid location for this 'move'
+Time 9 FILE> t2 move f
+Robot T2 at location (0, 0) moving to (3, 0)
+Time 9 FILE> t2 move 2,2 f
+Error: '2,2' is not a valid location for this 'move'
+Time 9 FILE> t2 move f 2,2
+Error: '2,2' is not a valid location for this 'move'
+Time 9 FILE> t2 move 1,1
+Error: '1,1' is not a valid location for this 'move'
+Time 9 FILE> quit
+Are you sure you want to quit? (Y/N) Time 9 FILE> y
+Fire Bigone has disappeared from the simulation
