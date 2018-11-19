@@ -10,6 +10,7 @@ Project 4 - Add Time and Object Interaction to the Simulation
 The course is structured around a number of important programming concepts, as follows: Problem decomposition, structured programming, files manipulation, exceptions, inheritance, object-oriented programming, namespaces and scope, testing and debugging, and possibly event-driven programming and graphical-user interface programming. 
 
 Model data: World, Human, Waypoint, Robot, Fire Flames (with strength level)
+
 Action command: create, show (show view), status (print the data and their position), go (execute the commands one step above and time goes), move, (robot) attack (fire)
 
 Two example ouput file of project 4:
@@ -17,7 +18,7 @@ Two example ouput file of project 4:
 File 1:
 ( Show how do the basic orders and make robot/human move:)
 
-[TEXT TO SHOW]https://github.com/xueranm/Rescue-Robot-Simulation/blob/master/project4/P4_sample_io_files/P4_Sample_Output_File_6.txt
+https://github.com/xueranm/Rescue-Robot-Simulation/blob/master/project4/P4_sample_io_files/P4_Sample_Output_File_6.txt
 
 
 
@@ -25,5 +26,5 @@ File 1:
 
 File 2:
 (show one more function that robot extinguish fire)
-[TEXT TO SHOW]https://github.com/xueranm/Rescue-Robot-Simulation/blob/master/project4/P4_sample_io_files/P4_Sample_Output_File_5.txt
+https://github.com/xueranm/Rescue-Robot-Simulation/blob/master/project4/P4_sample_io_files/P4_Sample_Output_File_5.txt
 
